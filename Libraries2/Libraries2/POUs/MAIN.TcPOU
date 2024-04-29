@@ -4,13 +4,12 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	fbO5D100 : Identical_Library.FB_O5D100;
+	fbO5D100_2 : Identical_Library.FB_O5D100;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[fbO5D100();]]></ST>
+      <ST><![CDATA[fbO5D100();
+fbO5D100_2();]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
